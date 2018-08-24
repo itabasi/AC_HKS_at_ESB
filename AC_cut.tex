@@ -1,0 +1,26 @@
+
+
+#==== AC2 Ch1 Cut Condition ===========#
+  TCut cut_trig = "trig_adc_t[1]>900 && trig_adc_t[0]>900. && trig_adc_b[0]>800. && trig_adc_b[1]>800. && trig_time_t[1]< 263.5 && trig_time_b[0]<262. && trig_time_b[1]>260. && trig_time_b[1]<262. ";
+
+#===== AC2 Ch2 Cut Condition =========='#
+trig_adc_t[0]<2000. && trig_adc_t[0]>800. && trig_adc_t[1]>900. && trig_adc_b[0]>700. && trig_adc_b[0]<1500. && trig_adc_b[1]>700. && trig_time_t[1]>261.5 &&trig_time_t[1]<263.5 && trig_tie_b[0]>260.5 && trig_time_b[0]<262. && trig_time_b[1]>260. && trig_time_b[1]<262.
+
+#==== AC2 Ch3 Cut Condition ===========#
+trig_adc_t[0]>850. && trig_adc_t[0]<1800. && trig_adc_t[1]>900. && trig_adc_b[0]>700. trig_adc_b[0]<1500. && trig_adc_b[1]>800. && trig_time_t[1]>262. && trig_time_t[1]<263.5 && trig_time_b[0]>260. && trig_time_b[0]<262. && trig_time_b[1]>260. && trig_time_b[1]<262.0
+
+#===== AC2 Ch4 Cut Condition  ===============#
+trig_adc_b[0]>700. && trig_adc_b[1]>800. && trig_adc_t[0]>800. && trig_adc_t[1]>800. && trig_time_t[1]>262. && trig_time_t[1]<263.5 && trig_time_b[0]>260.5 && trig_time_b[0]<262. && trig_time_b[1]>260. && trig_time_b[1]<262.
+ TCut cut_ac = "AC_npe_b>1.0 && AC_npe_t>1.0";
+
+
+#==== AC2 Ch5 Cut Condition ===========#
+trig_adc_t[0]>800. && trig_adc_t[0]<2000 && trig_adc_t[1]>800. && trig_adc_b[0]>700. && trig_adc_b[1]>800. && trig_time_t[1]>261.5 && trig_time_t[1]<263.2 && trig_time_b[0]>260.5 && trig_time_b[0]<262.0 && trig_time_b[1]>260. && trig_time_b[1]<262.
+
+
+#==== AC2 Ch6 Cut Condition ===========#
+trig_adc_t[0]>800. && trig_adc_t[0]<2000 && trig_adc_t[1]>800. && trig_adc_t[1]<3000. && trig_adc_b[0]>700. && trig_adc_b[0]<2000. && trig_adc_b[1]<2000. && trig_adc_b[1]>800. && trig_time_t[1]>261.5 && trig_time_t[1]<263.5 && trig_time_b[0]<262. && trig_time_b[1]>260/5 && trig_time_b[1]>260. && trig_time_b[1]<262.0
+
+
+#==== AC2 Ch7 Cut Conditon ============#
+trig_adc_t[0]<2000 && trig_adc_t[0]>800.  && trig_adc_t[1]<2500. && trig_adc_t[1]>800. && trig_adc_b[0]<2000. && trig_adc_b[0]>650. && trig_adc_b[1]<2000. && trig_adc_b[1]>800. && trig_time_t[1]>261.5 && trig_time_t[1]<263.5 && trig_time_b[0]>260. && trig_time_b[0]<262. && trig_time_b[1]>260. && trig_time_b[1]<262.
